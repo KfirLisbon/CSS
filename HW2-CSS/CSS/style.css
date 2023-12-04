@@ -14,7 +14,7 @@ img {
 .gradient {
   background-image: linear-gradient(to right, red, blue);
   width: 50px;
-  height: 50px;
+  height: 50px; 
 }
 /* End of Ex2 */
 .planets {
@@ -42,7 +42,6 @@ img {
 .colors1 {
   width: 250px;
   height: 150px;
-  display: inlio;
 }
 #yellow {
   background-color: yellow;
@@ -113,39 +112,36 @@ img {
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 195px 195px 195px 195px;
   grid-template-rows: 200px 200px 200px 200px;
+  grid-column-gap: 6px;
+  align-items: center;
 }
 .grid .red {
-  width: 195px;
-  height: 195px;
+  line-height: 195px;
   background-color: red;
   text-align: center;
-  
 }
 
 .grid .yellow {
-  width: 195px;
-  height: 195px;
+  line-height: 195px;
   background-color: orange;
   text-align: center;
 }
 
 .grid .pink {
-  width: 195px;
-  height: 195px;
+  line-height: 195px;
   background-color: pink;
   text-align: center;
 }
 
 .grid .green {
-  width: 195px;
-  height: 195px;
+  line-height: 195px;
   background-color: green;
   text-align: center;
 }
 
-#text {
+.text {
   color: white;
   text-transform: uppercase;
 }
