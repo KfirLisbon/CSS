@@ -114,31 +114,27 @@ img {
   display: grid;
   grid-template-columns: 195px 195px 195px 195px;
   grid-template-rows: 200px 200px 200px 200px;
-  grid-column-gap: 6px;
-  align-items: center;
+  grid-gap: 6px;
+  text-align: center;
 }
 .grid .red {
   line-height: 195px;
   background-color: red;
-  text-align: center;
 }
 
 .grid .yellow {
   line-height: 195px;
   background-color: orange;
-  text-align: center;
 }
 
 .grid .pink {
   line-height: 195px;
   background-color: pink;
-  text-align: center;
 }
 
 .grid .green {
   line-height: 195px;
   background-color: green;
-  text-align: center;
 }
 
 .text {
