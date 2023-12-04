@@ -1,0 +1,51 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgb(68, 67, 67);
+  color: #f4f4f4;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+
+  #smartphone h1 {
+    display: block;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  #tablet h1 {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+
+  #normal h1 {
+    display: block;
+  }
+}
+
+@media (min-width: 1201px) {
+  body {
+    background-color: orange;
+  }
+
+  #widescreen h1 {
+    display: block;
+  }
+}

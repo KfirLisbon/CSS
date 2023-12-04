@@ -1,0 +1,157 @@
+.lorem {
+  background-color: lightblue;
+  width: 300px;
+}
+img {
+  width: 20px;
+  position: relative;
+  left: 280px;
+  bottom: 125px;
+  z-index: 1;
+}
+/* End of Ex1 */
+
+.gradient {
+  background-image: linear-gradient(to right, red, blue);
+  width: 50px;
+  height: 50px;
+}
+/* End of Ex2 */
+.planets {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+/* End of Ex3 */
+
+.whitecircles {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+/* End of Ex4 */
+
+.colors {
+  width: 500px;
+  height: 300px;
+}
+.colors1 {
+  width: 250px;
+  height: 150px;
+  display: inlio;
+}
+#yellow {
+  background-color: yellow;
+}
+#yellowgreen {
+  background-color: yellowgreen;
+  position: relative;
+  left: 250px;
+  bottom: 150px;
+}
+#green {
+  background-color: green;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  bottom: 150px;
+}
+
+/* End of Ex5 */
+
+.header {
+  background-color: lightblue;
+  height: 75px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+
+.nav {
+  background-color: purple;
+  margin-top: -25px;
+  width: 500px;
+}
+
+.sections {
+  background-color: yellowgreen;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  left: 50px;
+}
+
+.footer {
+  background-color: aqua;
+  width: 500px;
+  height: 50px;
+  margin-top: 15px;
+}
+/* End of Ex6 */
+.bigDiv {
+  width: 800px;
+  border: 1px solid black;
+  background-color: lightcoral;
+}
+
+#headerGrid {
+  background-color: purple;
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+
+#navGrid {
+  background-color: blue;
+  width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+}
+.grid .red {
+  width: 195px;
+  height: 195px;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+}
+
+.grid .yellow {
+  width: 195px;
+  height: 195px;
+  background-color: orange;
+  text-align: center;
+}
+
+.grid .pink {
+  width: 195px;
+  height: 195px;
+  background-color: pink;
+  text-align: center;
+}
+
+.grid .green {
+  width: 195px;
+  height: 195px;
+  background-color: green;
+  text-align: center;
+}
+
+#text {
+  color: white;
+  text-transform: uppercase;
+}
+.footer {
+  background-color: lightgrey;
+  width: 800px;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid box</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .grid-container {
+        display: grid;
+        height: 100px;
+        width: 100%;
+        grid-template-columns: 200px 200px 200px;
+      }
+
+      .item {
+        border: black solid 1px;
+        margin: 10px;
+        text-align: center;
+      }
+
+      #item-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      #item-2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+        text-align: left;
+        padding-left: 5px;
+      }
+
+      #item-3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 2;
+        grid-row-end: 4;
+
+        text-align: center;
+      }
+
+      #item-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 6;
+        grid-row-end: 6;
+
+        text-align: center;
+      }
+
+      #item-5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+
+        grid-row-start: 6;
+        grid-row-end: 6;
+      }
+
+      #item-6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 6;
+        grid-row-end: 6;
+      }
+
+      #item-7 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        grid-row-start: 10;
+        grid-row-end: 12;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="item-1" class="item"><h2>Main Header</h2></div>
+
+      <div id="item-2" class="item">
+        <h4><b>Section Header</b></h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          provident sed maxime corporis repudiandae ex atque quaerat culpa
+          cumque repellat, perferendis, obcaecati enim veritatis autem
+          asperiores molestias officiis! Molestias, quas?
+        </p>
+      </div>
+
+      <div id="item-3" class="item">
+        <h4>Contact Us</h4>
+        <ul>
+          <li>Company Name</li>
+          <li>Adress</li>
+          <li>company@gmail.com</li>
+          <li>444-555-444-333-2</li>
+        </ul>
+      </div>
+      <div id="item-4" class="item">
+        <h4>Heading 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est
+          laboriosam tempore ad facere id odit eveniet, consequatur quas beatae
+          sapiente minus reiciendis odio consequuntur sit, corporis nihil fugit
+          commodi.
+        </p>
+      </div>
+      <div id="item-5" class="item">
+        <h4>Heading 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est
+          laboriosam tempore ad facere id odit eveniet, consequatur quas beatae
+          sapiente minus reiciendis odio consequuntur sit, corporis nihil fugit
+          commodi.
+        </p>
+      </div>
+      <div id="item-6" class="item">
+        <h4>Heading 3</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est
+          laboriosam tempore ad facere id odit eveniet, consequatur quas beatae
+          sapiente minus reiciendis odio consequuntur sit, corporis nihil fugit
+          commodi.
+        </p>
+      </div>
+      <div id="item-7" class="item">Copyright C 2023</div>
+    </div>
+  </body>
+</html>

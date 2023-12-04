@@ -1,0 +1,47 @@
+.StartOfSentence {
+  color: red;
+  font-size: 30px;
+}
+/* End of Ex 1 */
+
+.moscow-mule {
+  text-decoration: none;
+}
+.long-island {
+  text-decoration: none;
+}
+
+/* End of Ex 2 */
+
+.cities {
+  text-transform: uppercase;
+}
+
+/* End of Ex3 */
+
+.HW {
+  width: 250px;
+  height: 250px;
+}
+
+/* End of Ex4 + Ex5 */
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+}
+
+/* End of Ex6 */
+
+.TableCollapse {
+  border-collapse: collapse;
+}
+img {
+  width: 30px;
+  height: 30px;
+}

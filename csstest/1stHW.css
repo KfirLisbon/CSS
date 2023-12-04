@@ -1,0 +1,39 @@
+.The-Letter-C {
+  color: red;
+  font-size: 30px;
+}
+/* End of Ex 1 */
+
+.moscow-mule {
+  text-decoration: none;
+}
+.long-island {
+  text-decoration: none;
+}
+
+/* End of Ex 2 */
+
+.cities {
+  text-transform: uppercase;
+}
+
+/* End of Ex3 */
+
+.background {
+  background-color: blue;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.dog {
+  border: 5px solid white;
+  border-radius: 15%;
+  padding: 40px;
+}
+h2 {
+  color: white;
+  text-transform: uppercase;
+}
